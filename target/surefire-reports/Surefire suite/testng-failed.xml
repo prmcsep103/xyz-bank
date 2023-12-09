@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.bank.testsuite.BankTest">
+        <methods>
+          <include name="customerShouldWithdrawMoneySuccessfully"/>
+          <include name="bankManagerShouldDeleteCustomerSuccessfully"/>
+          <include name="customerShouldDepositMoneySuccessfully"/>
+          <include name="setUp"/>
+          <include name="bankManagerShouldOpenAccountSuccessfully"/>
+          <include name="customerShouldLoginAndLogoutSuccessfully"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bank.testsuite.BankTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
